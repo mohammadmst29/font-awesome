@@ -1,0 +1,51 @@
+* {
+    bottom: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.ocean-waves {
+    background: url("../images/rain-6812_256.gif") no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-content {
+    text-align: center;
+
+    img {
+        max-width: 15%;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    }
+
+    p {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-top: 10px;
+    }
+
+    .socialicons {
+        margin-top: 20px;
+        
+        a {
+            color: #000000;
+            font-size: 24px;
+            margin: 0 10px;
+            text-decoration: none;
+           
+            
+           
+        }
+    }
+}
